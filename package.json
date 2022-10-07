@@ -1,0 +1,18 @@
+{
+  "name": "google-sheets-api-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pkg index.js -o gs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-spreadsheet": "^3.3.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  }
+}
